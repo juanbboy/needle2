@@ -75,7 +75,7 @@ ruta.post('/regneedle', async (req, res, next) => {
     a09: req.body.a09,
     a12: req.body.a12,
     a16: req.body.a16,
-    a16: req.body.obs
+    obs: req.body.obs
   })
 
   needle.create(ingreso, (error, data) => {
