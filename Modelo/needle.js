@@ -33,6 +33,9 @@ let needle = new Schema(
         a16: {
             type: Number,
         },
+        obs: {
+            type: String,
+        },
         date: {
             type: Date,
             default: Date.now
